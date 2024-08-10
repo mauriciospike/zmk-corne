@@ -116,17 +116,17 @@
 
         default_layer {
             bindings = <
-&lt RAISE TAB   &kp Q  &kp W  &kp E      &kp R     &kp T        &kp Y    &kp U          &kp I      &kp O    &kp P     &kp BSPC
-&lt 1 CAPSLOCK  &kp A  &kp S  &kp D      &kp F     &kp G        &kp H    &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT       &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N    &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                              &kp LCTRL  &kp LGUI  &kp SPACE    &kp RET  &lt TOP GRAVE  &kp RALT
+&lt RAISE TAB   &kp Q  &kp W  &kp E      &kp R     &kp T        &kp Y    &kp U                 &kp I      &kp O    &kp P     &kp BSPC
+&lt 1 CAPSLOCK  &kp A  &kp S  &kp D      &kp F     &kp G        &kp H    &kp J                 &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT       &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N    &kp M                 &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+                              &kp LCTRL  &kp LGUI  &kp SPACE    &kp RET  &lt TOP LEFT_BRACKET  &kp RALT
             >;
         };
 
         lower_layer {
             bindings = <
 &kp PIPE   &kp EXCL          &kp AT_SIGN        &kp HASH      &kp DLLR      &kp PRCNT           &kp CARET  &kp AMPS   &kp STAR       &kp LPAR          &kp RPAR   &kp DEL
-&trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE          &kp LEFT   &kp DOWN   &kp UP         &kp RIGHT         &kp COLON  &kp DOUBLE_QUOTES
+&trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE          &kp LEFT   &kp DOWN   &kp UP         &kp RIGHT         &kp COLON  &kp RIGHT_BRACE
 &kp LSHFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp C_PREV    &kp C_NEXT    &kp C_PLAY_PAUSE    &kp MINUS  &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &trans
                                                 &trans        &trans        &trans              &trans     &trans     &trans
             >;
